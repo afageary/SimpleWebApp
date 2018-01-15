@@ -11,7 +11,7 @@ public class QueryProcessor {
             return "Nice country";
         }
         if (query.toLowerCase().contains("sudan")) {
-            return "Nice country too";
+            return "Nice country too. Located in the heart of Africa";
         }
         if (query.toLowerCase().contains("portugal")) {
             return "Nice weather";
