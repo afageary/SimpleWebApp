@@ -9,12 +9,12 @@ public class QueryProcessor {
         }
         if (query.toLowerCase().contains("spain")) {
             return "Nice country";
-        }
-        if (query.toLowerCase().contains("sudan")) {
+        } else if (query.toLowerCase().contains("sudan")) {
             return "Nice country too. Located in the heart of Africa";
-        }
-        if (query.toLowerCase().contains("portugal")) {
+        } else if (query.toLowerCase().contains("portugal")) {
             return "Nice weather";
+        } else if (query.toLowerCase().contains("uk")) {
+            return "Terrible weather";
         }
 
         return "";
