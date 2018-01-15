@@ -14,7 +14,7 @@ public class QueryProcessor {
             return "Nice country too";
         }
         if (query.toLowerCase().contains("portugal")) {
-            return "Nice weather"
+            return "Nice weather";
         }
 
         return "";
