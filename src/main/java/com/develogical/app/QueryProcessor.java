@@ -10,6 +10,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("spain")) {
             return "Nice country";
         }
+        if (query.toLowerCase().contains("sudan")) {
+            return "Nice country too";
+        }
 
         return "";
     }
