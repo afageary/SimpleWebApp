@@ -16,6 +16,9 @@ public class QueryProcessor {
         } else if (query.toLowerCase().contains("uk")) {
             return "Terrible weather";
         }
+        if (query.toLowerCase().contains("khartoum")) {
+            return "Nice City but often very hot in weather";
+        }
 
         return "";
     }
