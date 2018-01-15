@@ -13,6 +13,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("sudan")) {
             return "Nice country too";
         }
+        if (query.toLowerCase().contains("portugal")) {
+            return "Nice weather"
+        }
 
         return "";
     }
